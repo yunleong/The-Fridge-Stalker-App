@@ -1,5 +1,4 @@
-# The-Stockers
-## Fridge Stalker Android Application
+# Fridge Stalker Android Mobile Application
 The purpose of this application is to provide users a fast and easy way to manage their grocery inventory. 
 In Fall 2021, we designed a software requirements specification document that fully detailed the applications functionality and requirements. 
 In Spring 2022, we developed the app using Android Studio and used Amazon Web Services to create the API for our database according to the specification document. 
