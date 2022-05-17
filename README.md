@@ -17,10 +17,18 @@ In Summer 2022, we were successful in creating a remote, centralized database, a
 
 ## Barcode Scanner Feature
 ![image](https://user-images.githubusercontent.com/47125700/168902467-943d3c99-8346-4dbf-925c-cf66dc71438a.png)
+
+## Record Waste & Consumption, Modify Lists and Search Function
 ![image](https://user-images.githubusercontent.com/47125700/168902612-3cfdb879-8f32-457f-b58e-6c8d4b5617a7.png)
 ![image](https://user-images.githubusercontent.com/47125700/168902763-328f10af-7c36-433f-9842-1522b9fd046a.png)
+
+## Shopping Lists Built-In
 ![image](https://user-images.githubusercontent.com/47125700/168903224-4abe790d-1776-4e3c-bc98-3cf144fd72c0.png)
+
+## Waste & Consumption Data Analysis
 ![image](https://user-images.githubusercontent.com/47125700/168903336-11d3bc7f-37ee-4065-be26-94a3b0021a75.png)
+
+## Theme & Settings
 ![image](https://user-images.githubusercontent.com/47125700/168903420-777f3e2c-9c2a-4b08-9f7c-6092e608ffc9.png)
 
 ## Remote Database Backend (Custom API)
