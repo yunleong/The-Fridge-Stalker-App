@@ -12,7 +12,7 @@ In Summer 2022, we were successful in creating a remote, centralized database, a
 ![image](https://user-images.githubusercontent.com/47125700/168902027-c355f21b-e969-426d-9ac3-29c3dccdab32.png)
 ![image](https://user-images.githubusercontent.com/47125700/168902109-13e7071d-8e8a-4399-a3b7-9cd605a56a9e.png)
 
-## Receipt Scanner Text Recognition Feature
+## Receipt Scanner Feature
 ![image](https://user-images.githubusercontent.com/47125700/168902298-c6736e7e-f301-40b3-adc6-f1f74bd3365d.png)
 
 ## Barcode Scanner Feature
