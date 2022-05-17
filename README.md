@@ -2,7 +2,7 @@
 The purpose of this application is to provide users a fast and easy way to manage their grocery inventory.
 ![image](https://user-images.githubusercontent.com/47125700/168901688-bf19da7d-b94f-4ed0-bd8a-c23bbe64e766.png)
 
-## Development Progress 
+## Development Timeline 
 In Fall 2021, we designed a software requirements specification document that fully detailed the applications functionality and requirements. 
 In Spring 2022, we developed the app using Android Studio and used Amazon Web Services to create the API for our database according to the specification document. 
 In Summer 2022, we were successful in creating a remote, centralized database, an inventory with receipt and barcode scanning, shopping list, analytic & theme customization features.
