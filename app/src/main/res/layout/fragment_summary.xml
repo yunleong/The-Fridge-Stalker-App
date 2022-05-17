@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/alata"
+                android:text="April 2022"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alata"
+            android:text="You ate 58.3% and thrown away 33.3%\nof food this month."
+            android:textSize="20sp"
+            android:textColor="@color/purple_200"
+            app:layout_constraintEnd_toEndOf ="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1"
+                android:layout_marginStart="20dp"/>
+
+            <com.anychart.AnyChartView
+                android:id="@+id/pie_chart_view"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="14dp">
+
+            </com.anychart.AnyChartView>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/alata"
+                android:text="Last 6 months"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:text="You spent 10.2% ($30.19) more on food this month than last month."
+                android:textSize="20sp"
+                android:textColor="@color/purple_200"
+                app:layout_constraintEnd_toEndOf ="parent"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1"
+                android:layout_marginStart="20dp"/>
+
+            <com.anychart.AnyChartView
+                android:id="@+id/line_graph_view"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="14dp">
+            </com.anychart.AnyChartView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

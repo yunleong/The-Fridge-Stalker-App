@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".ListAddActivity">
+
+    <Button
+        android:id="@+id/item_add_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_quantity" />
+
+    <EditText
+        android:id="@+id/item_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Item name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Item quantity"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/item_name_input"
+        app:layout_constraintStart_toStartOf="@+id/item_name_input"
+        app:layout_constraintTop_toBottomOf="@+id/item_name_input" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fridge Stalker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="unit_of_measure">
+        <item>count</item>
+        <item>bag</item>
+        <item>dozen</item>
+        <item>case</item>
+        <item>lb</item>
+        <item>kg</item>
+        <item>oz</item>
+        <item>ml</item>
+    </string-array>
+</resources>

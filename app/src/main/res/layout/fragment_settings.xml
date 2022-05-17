@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <TableLayout
+        android:id="@+id/settingsTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/TnC_button"
+        tools:layout_editor_absoluteY="272dp">
+
+        <TableRow
+            android:id="@+id/darkModeRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/darkModeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/alata"
+                android:text="Dark Mode"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/darkModeSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+        <TableLayout>
+        <TableRow
+            android:id="@+id/budgetRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="30dp">
+
+            <TextView
+                android:id="@+id/budgetText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/alata"
+                android:text="Expense Tracking"
+                android:textSize="20sp"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/budgetSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:checked="true" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textStyle="italic"
+                android:text="Collect pricing data when scanning receipts."
+                android:textSize="12sp" />
+        </TableRow>
+
+    </TableLayout>
+
+        <TableLayout>
+        <TableRow
+            android:id="@+id/wasteRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="30dp">
+
+            <TextView
+                android:id="@+id/wasteText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/alata"
+                android:text="Waste Consumption Tracking"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/wasteSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:checked="true"/>
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:paddingBottom="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textStyle="italic"
+                    android:text="Collect food depletion activities"
+                    android:textSize="12sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout>
+        <TableRow
+            android:id="@+id/offlineRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="30dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="30dp">
+
+            <TextView
+                android:id="@+id/offlineTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:fontFamily="@font/alata"
+                android:text="Offline Mode"
+                android:textSize="20sp" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/offlineSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp" />
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:paddingBottom="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textStyle="italic"
+                    android:text="Disable remote storage and reduce data usage."
+                    android:textSize="12sp" />
+            </TableRow>
+        </TableLayout>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/TnC_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/alata"
+        android:text="Terms &amp; Conditions"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        app:backgroundTint="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/settingsTable"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <Button
+        android:id="@+id/aboutUs_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/alata"
+        android:text="About Us"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black_shade_1"
+        app:backgroundTint="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/TnC_button"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
