@@ -1,7 +1,6 @@
-# Fridge Stalker Android Mobile Application
-The purpose of this application is to provide users a fast and easy way to manage their grocery inventory.
-
 ![image](https://user-images.githubusercontent.com/47125700/168901688-bf19da7d-b94f-4ed0-bd8a-c23bbe64e766.png)
+
+The purpose of this application is to provide users a fast and easy way to manage their grocery inventory.
 
 ## Development Timeline 
 In Fall 2021, we designed a software requirements specification document that fully detailed the applications functionality and requirements. 
