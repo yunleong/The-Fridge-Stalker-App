@@ -32,6 +32,7 @@ In Summer 2022, we were successful in creating a remote, centralized database, a
 ![image](https://user-images.githubusercontent.com/47125700/168903420-777f3e2c-9c2a-4b08-9f7c-6092e608ffc9.png)
 
 ## Remote Database Backend (Custom API)
+
 ![image](https://user-images.githubusercontent.com/47125700/168902875-b6641892-30dd-4b8d-b9b7-19eac0ebc8fe.png)
 ![image](https://user-images.githubusercontent.com/47125700/168902965-3f4c7454-074b-493b-9568-abd315906eb0.png)
 ![image](https://user-images.githubusercontent.com/47125700/168903101-aa68a066-043c-4ce8-af38-3c4b779f3f83.png)
